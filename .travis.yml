@@ -8,7 +8,7 @@ env:
 script:
   
 
-  - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T halo.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
 
 
 
