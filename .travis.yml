@@ -2,9 +2,15 @@ language: php
 
 env:
   global:
-    - 'FTP_USER='
-    - 'FTP_PASS=bismillah'
+    - 'FTP_USER=adelutfi'
+    - 'FTP_PASS=adelutfi2803'
 
 script:
-  - "curl -u $FTP_USER:$FTP_PASSWORD ftp://files.000webhost.com -Q 'mkd public_html/praktek-4c'"
-  - "curl -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://files.000webhost.com/public_html/praktek-4c"
+  
+
+  - "curl -T index.php -u $FTP_USER:$FTP_PASSWORD 
+  ftp://files.000webhost.com/public_html/"
+
+
+
+
