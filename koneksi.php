@@ -1,7 +1,7 @@
 <?php
 class Koneksi {
     private $server = "localhost";
-    private $username = "id5881349_adelutfinofi"; //root
+    private $username = "id5881349_webpro"; //root
     private $password = "adelutfinof"; //""
     private $db = "id5881349_adelutfinofitasariweb";
 
